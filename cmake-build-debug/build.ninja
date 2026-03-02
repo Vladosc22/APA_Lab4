@@ -51,7 +51,7 @@ build cmake_object_order_depends_target_APA_Lab_4: phony || .
 
 build CMakeFiles/APA_Lab_4.dir/main.cpp.o: CXX_COMPILER__APA_Lab_4_unscanned_Debug /Users/vlados/Desktop/UTM/Anu$ II/APA/APA$ Lab$ 4/main.cpp || cmake_object_order_depends_target_APA_Lab_4
   DEP_FILE = CMakeFiles/APA_Lab_4.dir/main.cpp.o.d
-  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/APA_Lab_4.dir
   OBJECT_FILE_DIR = CMakeFiles/APA_Lab_4.dir
   TARGET_COMPILE_PDB = CMakeFiles/APA_Lab_4.dir/
@@ -66,7 +66,7 @@ build CMakeFiles/APA_Lab_4.dir/main.cpp.o: CXX_COMPILER__APA_Lab_4_unscanned_Deb
 # Link the executable APA_Lab_4
 
 build APA_Lab_4: CXX_EXECUTABLE_LINKER__APA_Lab_4_Debug CMakeFiles/APA_Lab_4.dir/main.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk
   OBJECT_DIR = CMakeFiles/APA_Lab_4.dir
   POST_BUILD = :
   PRE_LINK = :
